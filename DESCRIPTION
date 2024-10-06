@@ -1,0 +1,23 @@
+Package: GOALDeR
+Type: Package
+Title: The Generalized Outcome-Adaptive LASSO and Doubly Robust Estimate (GOALDeR)
+Version: 0.1.0
+Author: Qian Gao <gaoqian1206@163.com>
+Maintainer: Qian Gao <gaoqian1206@163.com>
+Description: estimating causal dose-response curve using doubly robust estimator when the number of covariates is large.Please find more details in the paper "A doubly robust estimator for continuous treatments in high dimensions".
+License: What license is it under?
+Encoding: UTF-8
+LazyData: FALSE
+Imports: 
+    cdcsis,
+    extracat,
+    independenceWeights,
+    locfit,
+    lqa,
+    MASS,
+    Matrix,
+    randomForest,
+    SuperLearner,
+    survey,
+    WeightIt
+RoxygenNote: 7.3.2
